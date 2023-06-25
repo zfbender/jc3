@@ -19,16 +19,20 @@ body {
 
 /*heading image section */
 .beach-image {
-    
-}
-.beach-image img {
+    background-image: url("IMG_1812.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
     width: 100%;
     height: 30em;
+    color: white;
+    text-align: center;
+    padding: 12em;
 }
 
 /*about me section */
 .about-section {
-    padding: 0px 10%;
+    padding: 20px;
     margin: 20px 0px;
 }
 .about-container {
@@ -44,6 +48,29 @@ body {
 .about-block-image {
     flex: 1;
     margin-right: 20px;
+}
+
+/*remax section*/
+.remax-section {
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    background-color: lightgrey;
+}
+.remax-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.remax-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remax-image {
+    flex: 1;
+}
+.remax-image img {
+    max-width: 25em;
 }
 
 /* Navigation bar styles */
@@ -70,6 +97,16 @@ body {
     text-decoration: none;
 }
 
+.listings-section {
+    background-color: lightgrey;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-section {
+    padding: 20px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
     .navbar {
@@ -86,6 +123,13 @@ body {
         margin-top: 10px;
     }
 
+    .beach-image {
+        padding: 10em 1em;
+    }
+
+    .remax-image img {
+        max-width: 20em;
+    }
 }
 
 /* Footer styles */
