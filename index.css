@@ -48,6 +48,7 @@ body {
 .about-block-image {
     flex: 1;
     margin-right: 20px;
+    text-align: center;
 }
 
 /*remax section*/
@@ -68,6 +69,8 @@ body {
 }
 .remax-image {
     flex: 1;
+    text-align: center;
+    margin-right: 20px;
 }
 .remax-image img {
     max-width: 25em;
